@@ -10,8 +10,12 @@ else:
 
 # asking the user to input the number
 fibnumber = int(raw_input("Please enter your number: "))
-output = fib(fibnumber)
+print "This is the number you entered: %d" % fibnumber
 
 # displaying the fibonacci number
 output = fib(fibnumber)
 print "This is the corresponding fibonacci number: %d" % output
+
+# displaying the length of the fibonacci number
+length = len(str(output))
+print "This is the length of your fibonacci number: %d" % length
