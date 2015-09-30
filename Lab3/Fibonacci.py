@@ -9,5 +9,9 @@ else:
   return fib(n-1) + fib(n-2)
 
 # asking the user to input the number
-input = int(raw_input("Please enter your number: "))
-output = fib(input)
+fibnumber = int(raw_input("Please enter your number: "))
+output = fib(fibnumber)
+
+# displaying the fibonacci number
+output = fib(fibnumber)
+print "This is the corresponding fibonacci number: %d" % output
